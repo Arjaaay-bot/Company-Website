@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home Page - ArchDev Tech</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link rel="stylesheet" href="../css/index.css">
+  
+</head>
+<body>
+
+    <a id="top"></a>
+    
+    <div id="video-container">
+        <video autoplay loop muted playsinline id="background-video">
+            <source src="../assets/video/bg1.mp4" type="video/mp4">
+        </video>
+    </div>
+
+    <nav class="navbar navbar-expand-lg navbar-light">
+        <a class="navbar-brand" href="index.html">
+            <img src="../assets/images/ArchDevLogo.png" alt="ArchDev Tech Logo" id="logo-image" style="max-width: 150px; height: 150px;">
+        </a>
+        <div class="container">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html" style="font-weight: bold; color: white;">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about_us" style="font-weight: bold; color: white;">About Us</a>
+                    </li>
+              
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="servicesDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="font-weight: bold; color: white;">Services</a>
+                        <div class="dropdown-menu" aria-labelledby="servicesDropdown">
+                            <a class="dropdown-item" href="service1.html">Terms of Service and Privacy Policy</a>
+                            <a class="dropdown-item" href="we_offer.html">What we offer</a>
+                        </div>
+                    </li>
+
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="otherDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="font-weight: bold; color: white;">Other</a>
+                        <div class="dropdown-menu" aria-labelledby="otherDropdown">
+                            <a class="dropdown-item" href="ourteam.html">Our Team</a>
+                            <a class="dropdown-item" href="contactus.html">Contact Us</a>
+                        </div>
+                    </li>
+                    
+                </ul>
+            </div>
+        </div>
+    </nav>
+    
+    <div class="row justify-content-center text-center mt-5 mb-5">
+        <div class="col-md-6">
+            <h1>ArchDev Technology</h1><br>
+            <p><strong>"Your Vision is our Mission"</strong></p>
+            <p>Welcome to our company! Our team comprises two dedicated members, Mr. Arjay lalas and Mr. Ryan Dave Songalla, who are both undergraduate of the Bachelor of Science Information Technology. It was established on October 23, 2023.</p>
+            <a href="#" class="btn transparent-button" data-toggle="modal" data-target="#videoModal">
+                <i class="fas fa-play"></i> Watch Video
+            </a>
+            
+        </div>
+    </div>
+    
+    <div id="about_us" class="container modify-container">
+        <h2>About ArchDev Technology</h2><hr>
+        <div class="row">
+            <div class="col-md-4">
+                <img src="../assets/images/imgs2.jpg" alt="About Us Image" class="img-fluid">
+            </div>
+            <div class="col-md-8 mt-5">
+                <p>ArchDev Technology is your gateway to the world of web and mobile development. Founded by Mr. Arjay Lalas and Mr. Ryan Dave Songalla, studying Information Technology at Pangasinan State University, we're here to help you learn, grow, and thrive. </p><hr>
+                <h4>Our Journey</h4>
+                <p>Our story began at Pangasinan State University, where we learned to love web and mobile development. We wanted to create a place for students like us to improve their skills and knowledge.</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="videoModal" tabindex="-1" role="dialog" aria-labelledby="videoModal" aria-hidden="true">
+        <div class="modal-dialog modal-lg" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="videoModal">ArchDev Tech Promotional Video</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <iframe width="560" height="315" src="../assets/video/1.mp4" frameborder="0" allowfullscreen></iframe>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="contact-info text-center py-3">
+            <p><strong>Follow Us</strong></p><hr>
+            <a href="index.html" target="_blank" class="text-dark">
+                <i class="fab fa-facebook-square fa-2x mr-3"></i>
+            </a>
+            <a href="index.html" target="_blank" class="text-dark">
+                <i class="fab fa-twitter-square fa-2x mr-3"></i>
+            </a>
+            <a href="index.html" target="_blank" class="text-dark">
+                <i class="fab fa-instagram-square fa-2x mr-3"></i>
+            </a>
+            <div class="row">
+                <div class="col-md-6">
+                    <p><strong style="color: black;">Facebook: </strong> <a href="https://www.facebook.com/profile.php?id=100004365555819" class="text-light">Arjay Lalas</a></p>
+                    <p><strong style="color: black;">Email: </strong> <a href="mailto:lalasarjay03@gmail.com" class="text-light">lalasarjay03@gmail.com</a></p>
+                    <p><strong style="color: black;">Phone: </strong> 09052655799</p>
+                </div>
+                <div class="col-md-6">
+                    <p><strong style="color: black;">Facebook: </strong> <a href="https://www.facebook.com/ryandave.songalla" class="text-light">Ryan Dave Songalla</a></p>
+                    <p><strong style="color: black;">Email: </strong> <a href="mailto:ryandave@gmail.com" class="text-light">ryandave@gmail.com</a></p>
+                    <p><strong style="color: black;">Phone: </strong> 09052655799</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <footer class="bg-dark text-white text-center py-3">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <p>&copy; Copyright <strong>ArchDev Technology</strong>. &nbsp; All Rights Reserved.</p>
+                    <p>Created by ArchDev</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+    
+     <!-- Scroll-to-top button/icon -->
+     <a href="#top" class="scroll-to-top">
+        <i class="fas fa-arrow-up"></i>
+    </a>
+
+    <!-- Your existing scripts and libraries -->
+    <script>
+        // Get the "Scroll to Top" button element
+        const scrollButton = document.querySelector('.scroll-to-top');
+
+        // Add a scroll event listener
+        window.addEventListener('scroll', () => {
+            if (window.scrollY > 100) { // Adjust the scroll position as needed
+                scrollButton.classList.add('scroll-show');
+            } else {
+                scrollButton.classList.remove('scroll-show');
+            }
+        });
+
+        // Add a click event listener to scroll to the top when the button is clicked
+        scrollButton.addEventListener('click', () => {
+            window.scrollTo({ top: 0, behavior: 'smooth' }); // Smooth scroll to top
+        });
+    </script>
+    
+
+
+</body>
+</html>

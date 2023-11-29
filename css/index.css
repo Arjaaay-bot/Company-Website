@@ -1,0 +1,99 @@
+body {
+    background-image: url('../assets/images/bg1.jpg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    margin: 0;
+    padding: 0;
+}
+.nav-link-bold {
+    font-weight: bold;
+}
+.navbar {
+    background-color: rgba(143, 121, 121, 0.017);
+    justify-content: flex-end;
+    padding-right: 150px; 
+}
+.navbar-nav .nav-item.dropdown:hover .dropdown-menu {
+    display: block;
+}
+.navbar-nav .nav-item.dropdown .dropdown-menu {
+    position: absolute;
+    background-color: #333; /* Background color of the dropdown */
+    z-index: 1; /* Ensure it appears on top of other elements */
+    display: none; /* Hide by default */
+}
+.navbar-nav .nav-item.dropdown .dropdown-menu a {
+    color: white;
+    padding: 10px 15px;
+    text-decoration: none;
+    display: block;
+}
+.navbar-nav .nav-item.dropdown .dropdown-menu a:hover {
+    background-color: #555;
+}
+.transparent-button {
+    background: transparent;
+    color: white; 
+    border: none; 
+    padding: 10; 
+}
+.transparent-button i {
+    margin-right: 6px; 
+}
+.container {
+    background-color: rgba(49, 8, 161, 0.672);
+    padding: 20px;
+    border-radius: 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.modify-container {
+    padding: 50px;
+    border-radius: 15px;
+    margin-top: 13%;
+    color: whitesmoke;
+}
+.modify-container1 {
+    padding: 100px;
+    border-radius: 15px;
+    margin-top: 6%;
+    color: whitesmoke;
+}
+img {
+    max-width: 100%;
+    height: auto;
+}
+#video-container {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    overflow: hidden;
+}
+#background-video {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+.col-md-6 {
+    color: white;
+}
+.scroll-to-top {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 50%;
+    padding: 10px 15px;
+    cursor: pointer;
+}
+
+.scroll-to-top.scroll-show {
+    display: block;
+}
