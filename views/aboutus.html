@@ -141,28 +141,22 @@
         </div>
     </footer>
     
-     <!-- Scroll-to-top button/icon -->
      <a href="#top" class="scroll-to-top">
         <i class="fas fa-arrow-up"></i>
     </a>
 
-    <!-- Your existing scripts and libraries -->
     <script>
-        // Get the "Scroll to Top" button element
+   
         const scrollButton = document.querySelector('.scroll-to-top');
-
-        // Add a scroll event listener
         window.addEventListener('scroll', () => {
-            if (window.scrollY > 100) { // Adjust the scroll position as needed
+            if (window.scrollY > 100) {
                 scrollButton.classList.add('scroll-show');
             } else {
                 scrollButton.classList.remove('scroll-show');
             }
         });
-
-        // Add a click event listener to scroll to the top when the button is clicked
         scrollButton.addEventListener('click', () => {
-            window.scrollTo({ top: 0, behavior: 'smooth' }); // Smooth scroll to top
+            window.scrollTo({ top: 0, behavior: 'smooth' });
         });
     </script>
     
