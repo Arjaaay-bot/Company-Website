@@ -44,13 +44,14 @@
                         <div class="dropdown-menu" aria-labelledby="servicesDropdown">
                             <a class="dropdown-item" href="policy.html">Privacy Policy</a>
                             <a class="dropdown-item" href="we_offer.html">What we offer</a>
+                            <a class="dropdown-item" href="#">Link</a>
                         </div>
                     </li>
 
                     <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle" href="#" id="otherDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="font-weight: bold; color: white;">Other</a>
                         <div class="dropdown-menu" aria-labelledby="otherDropdown">
-                            <a class="dropdown-item" href="ourteam.html">Our Team</a>
+                            <a id="team-link" class="dropdown-item" href="ourteam.html">Our Team</a>
                             <a class="dropdown-item" href="contactus.html">Contact Us</a>
                         </div>
                     </li>
@@ -76,9 +77,9 @@
         <h2>About ArchDev Technology</h2><hr>
         <div class="row">
             <div class="col-md-4">
-                <img src="../assets/images/imgs2.jpg" alt="About Us Image" class="img-fluid">
+                <img src="../assets/images/aboutus.jpg" alt="About Us Image" class="img-fluid">
             </div>
-            <div class="col-md-8 mt-5">
+            <div class="col-md-8 mt-2">
                 <p>ArchDev Technology is your gateway to the world of web and mobile development. Founded by Mr. Arjay Lalas and Mr. Ryan Dave Songalla, studying Information Technology at Pangasinan State University, we're here to help you learn, grow, and thrive. </p><hr>
                 <h4>Our Journey</h4>
                 <p>Our story began at Pangasinan State University, where we learned to love web and mobile development. We wanted to create a place for students like us to improve their skills and knowledge.</p>
@@ -96,7 +97,7 @@
                     </button>
                 </div>
                 <div class="modal-body">
-                    <iframe width="560" height="315" src="../assets/video/1.mp4" frameborder="0" allowfullscreen></iframe>
+                    <iframe width="560" height="315" src="" frameborder="0" allowfullscreen></iframe>
                 </div>
             </div>
         </div>
@@ -140,32 +141,26 @@
         </div>
     </footer>
     
-     <!-- Scroll-to-top button/icon -->
      <a href="#top" class="scroll-to-top">
         <i class="fas fa-arrow-up"></i>
     </a>
 
-    <!-- Your existing scripts and libraries -->
-    <script>
-        // Get the "Scroll to Top" button element
-        const scrollButton = document.querySelector('.scroll-to-top');
+    <script src="scripts.js"></script>
 
-        // Add a scroll event listener
+    <script>
+        const scrollButton = document.querySelector('.scroll-to-top');
         window.addEventListener('scroll', () => {
-            if (window.scrollY > 100) { // Adjust the scroll position as needed
+            if (window.scrollY > 100) {
                 scrollButton.classList.add('scroll-show');
             } else {
                 scrollButton.classList.remove('scroll-show');
             }
         });
-
-        // Add a click event listener to scroll to the top when the button is clicked
+        
         scrollButton.addEventListener('click', () => {
-            window.scrollTo({ top: 0, behavior: 'smooth' }); // Smooth scroll to top
+            window.scrollTo({ top: 0, behavior: 'smooth' });
         });
     </script>
-    
-
 
 </body>
 </html>
