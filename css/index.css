@@ -30,7 +30,7 @@ body {
     display: block;
 }
 .navbar-nav .nav-item.dropdown .dropdown-menu a:hover {
-    background-color: #555;
+    background-color: #555555;
 }
 .transparent-button {
     background: transparent;
@@ -97,3 +97,6 @@ img {
 .scroll-to-top.scroll-show {
     display: block;
 }
+
+
+

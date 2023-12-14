@@ -47,7 +47,10 @@ body {
 }
 .modify-container{
     background-color: transparent;
-    margin-left: 100px;
+    padding: 20px;
+    border-radius: 10px;
+    margin-top: 1px;
+    margin-bottom: 20px;
 }
 #contact-container {
     text-align: center; 
