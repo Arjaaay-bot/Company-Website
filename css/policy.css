@@ -45,13 +45,6 @@ body {
     margin-top: 1px;
     margin-bottom: 20px;
 }
-.modify-container{
-    background-color: transparent(49, 8, 161, 0.672);
-    padding: 20px;
-    border-radius: 10px;
-    margin-top: 1px;
-    margin-bottom: 20px;
-}
 #contact-container {
     text-align: center; 
     padding: 35px; 
@@ -69,7 +62,7 @@ body {
     background-color: rgba(49, 8, 161, 0.672); 
 }
 .policy-container:nth-child(even) {
-    background-color: rgba(150, 150, 150, 0.8);
+    background-color: rgba(49, 8, 161, 0.672);
 }
 
 
