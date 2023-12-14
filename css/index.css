@@ -19,9 +19,9 @@ body {
 }
 .navbar-nav .nav-item.dropdown .dropdown-menu {
     position: absolute;
-    background-color: #333; /* Background color of the dropdown */
-    z-index: 1; /* Ensure it appears on top of other elements */
-    display: none; /* Hide by default */
+    background-color: #333; 
+    z-index: 1; 
+    display: none; 
 }
 .navbar-nav .nav-item.dropdown .dropdown-menu a {
     color: white;

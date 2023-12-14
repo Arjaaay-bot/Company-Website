@@ -16,9 +16,9 @@ body {
 }
 .navbar-nav .nav-item.dropdown .dropdown-menu {
     position: absolute;
-    background-color: #333; /* Background color of the dropdown */
-    z-index: 1; /* Ensure it appears on top of other elements */
-    display: none; /* Hide by default */
+    background-color: #333;
+    z-index: 1; 
+    display: none; 
 }
 .navbar-nav .nav-item.dropdown .dropdown-menu a {
     color: white;
@@ -60,7 +60,7 @@ body {
 }
 .team-member img {
     max-width: 60%;
-    border-radius: 50%; /* Adds a circular border to the images */
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); /* Adds a shadow to the images */    
+    border-radius: 50%;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); 
 }
 
